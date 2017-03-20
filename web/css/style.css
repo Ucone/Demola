@@ -429,7 +429,7 @@ button#trigger-overlay i {
 .agileits-login {
     padding:3em;
 }
-.agileits-login input[type="text"],.agileits-login input[type="name"], .agileits-login input[type="password"], .agileits-login input[type="email"], .agileits-login textarea {
+.agileits-login input[type="text"],.agileits-login input[type="ProfileInput"], .agileits-login input[type="password"], .agileits-login input[type="email"], .agileits-login textarea {
     outline: none;
     font-size: 1em;
     color: #000;
@@ -672,7 +672,7 @@ a.opt-grids {
 /*--//Options--*/
 /*--about-inner--*/
 .inner-banner-agileits-w3layouts{
-	background: url(../images/banner1.jpg) no-repeat 0px 0px;
+	background: url(../images/BackgroundFysioterapiaForte.jpg) no-repeat 0px 0px;
 	background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
