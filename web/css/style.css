@@ -429,7 +429,7 @@ button#trigger-overlay i {
 .agileits-login {
     padding:3em;
 }
-.agileits-login input[type="text"], .agileits-login input[type="password"], .agileits-login input[type="email"], .agileits-login textarea {
+.agileits-login input[type="text"],.agileits-login input[type="name"], .agileits-login input[type="password"], .agileits-login input[type="email"], .agileits-login textarea {
     outline: none;
     font-size: 1em;
     color: #000;
