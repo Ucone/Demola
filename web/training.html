@@ -145,66 +145,41 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 </div>		
 <!-- //breadcrumbs -->
-<!-- Appointment -->
-<div class="appointment">
-   <div class="container">
-	<div class="form-agileits">
-	<h3>Make an appointment</h3>
-	<p>Providing Total Health Care Solution</p>
-	<form action="#" method="post">
-		<input  class="name" type="text" name="Patient Name" placeholder="Patient Name" required=""/>
-		<input type="text" name="Number" placeholder="Number" required=""/>
-		<input class="name" type="email" name="Email" placeholder="Email" required=""/>
-		<input  id="datepicker1" name="Text" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" placeholder="mm/dd/yyyy" required="">
-		<select class="form-control name" placeholder="department">
-			<option>Department</option>
-			<option>Cardiology</option>
-			<option>Ophthalmology</option>
-			<option>Neurology</option>
-			<option>Psychology</option>
-			<option>Dermatology</option>
-		</select>
-		<select class="form-control">
-			<option>Gender</option>
-			<option>Male</option>
-			<option>Female</option>
-		</select>
-		 <input type="submit" value="Make an appointment">
-	</form>
-	</div>
-	<div class="timings-w3ls">
-							<h5>Appointment Days</h5>
-							<ul>
-								<li>Pediatric <span>Sun-Tue</span></li>
-								<li>Gynaecology<span>Wed-Fri</span></li>
-								<li>Cardiac<span>Sat-Mon</span></li>
-							</ul>
-	</div>
-	<div class="w3ls-location">
-		<a href="locations.html">Locations</a>
-	</div>
-	</div>
-	
-	<div class="clearfix"> </div>
+
+<!-- Training -->
+<div class="container">
+  <h2>Exercise list</h2>           
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Exercise Name</th>
+        <th>See Video</th>
+        <th>Done</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Leg extension</td>
+        <td><button type="button" class="btn btn-primary">See video</button></td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <<td><button type="button" class="btn btn-primary">See video</button></td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td><button type="button" class="btn btn-primary">See video</button></td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-	<!-- //Appointment --> 
-<!--social-icons-->
-<div class="social-agileinfo">
-	<a href="#"  class="social-icon-w3-agile facebook">
-		<i class="fa fa-facebook" aria-hidden="true"></i>
-	</a>
-	<a href="#"  class="social-icon-w3-agile google-plus">
-		<i class="fa fa-google-plus" aria-hidden="true"></i>
-	</a>
-	<a href="#" class="social-icon-w3-agile twitter">
-		<i class="fa fa-twitter" aria-hidden="true"></i>
-	</a>
-	<a href="#" class="social-icon-w3-agile rss">
-		<i class="fa fa-rss" aria-hidden="true"></i>
-	</a>
-	<div class="clearfix"></div>
-</div>
-<!--//social-icons-->
+<!-- //Training -->
+    
+   
+
 <!-- footer -->
 	<div class="footer">
 		<div class="agileinfo_footer_bottom">
@@ -306,14 +281,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script src="js/jquery.nicescroll.js"></script>
 <script src="js/scripts.js"></script>
 
-<!-- Calendar -->
-				<script src="js/jquery-ui.js"></script>
-				  <script>
-						  $(function() {
-							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
-						  });
-				  </script>
-			<!-- //Calendar -->
+
 
 <!--jarallax -->
 	<script src="js/SmoothScroll.min.js"></script>
