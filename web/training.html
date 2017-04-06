@@ -148,6 +148,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <!-- Training -->
 <div class="container">
+	<!-- ProgressBar -->
+	<div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+    </div>
+	</div>
+<!-- ExcerciseLists -->
   <h2>Exercise list</h2>
   <table class="table table-hover">
     <thead>
@@ -184,7 +190,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				    </div>
 				  </div>
 				</td>
-        <td>john@example.com</td>
+        <td><input id="input1" type="checkbox" name="completed1" value="17"></td>
       </tr>
       <tr>
         <td>Co-contraction with Bent Leg Raise</td>
@@ -212,7 +218,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				    </div>
 				  </div>
 				</td>
-        <td>mary@example.com</td>
+        <td><input id="input2" type="checkbox" name="completed2" value="17"></td>
       </tr>
       <tr>
 				<td>Hamstring Stretch</td>
@@ -240,22 +246,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				    </div>
 				  </div>
 				</td>
-        <td>july@example.com</td>
+        <td><input id="input3" type="checkbox" name="completed3" value="17"></td>
       </tr>
 			<tr>
         <td>Quadriceps Stretch</td>
         <td><button type="button" class="btn btn-primary" onclick=" window.open('https://www.youtube.com/watch?v=bW1y0XUSbGU','_blank')">See video</button></td>
-        <td>marie@example.com</td>
+        <td><input id="input4" type="checkbox" name="completed4" value="17"></td>
       </tr>
 			<tr>
         <td>Mini Squats</td>
         <td><button type="button" class="btn btn-primary" onclick=" window.open('https://www.youtube.com/watch?v=xR8gJQsWr0E','_blank')">See video</button></td>
-        <td>curie@example.com</td>
+        <td><input id="input5" type="checkbox" name="completed5" value="17"></td>
       </tr>
 			<tr>
         <td>Single Leg Bridging</td>
         <td><button type="button" class="btn btn-primary" onclick=" window.open('https://www.youtube.com/watch?v=k2T3-yMujDE','_blank')">See video</button></td>
-        <td>edison@example.com</td>
+        <td><input id="input6" type="checkbox" name="completed6" value="17"></td>
       </tr>
     </tbody>
   </table>
@@ -384,6 +390,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
+		//progressBarPercentage
+		$('#input1, #input2, #input3, #input4, #input5, #input6').on('click', function() {
+    var emptyValue = 0;
+    $('input:checked').each(function() {
+        emptyValue += parseInt($(this).val());
+    });
+    $('.progress-bar').css('width', emptyValue + '%').attr('aria-valuenow', emptyValue);
+});
 	});
 </script>
 <!--js for bootstrap working-->
