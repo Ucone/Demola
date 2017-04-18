@@ -1417,7 +1417,7 @@ a.blog-more-agile:hover {
     letter-spacing: .5px;
     margin-top: 7px;
     padding-bottom: 8px;
-    border-bottom: 2px solid rgba(206, 36, 16, 0.36);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.7);
 }
 .timings-w3ls h5 {
     color: #fff;
@@ -1429,7 +1429,7 @@ a.blog-more-agile:hover {
     text-align: center;
 }
 .timings-w3ls ul li span {
-    color: #c51602;
+    color: #1C1C1C;
     float: right;
 }
 .contact-left iframe {
@@ -1468,7 +1468,7 @@ a.blog-more-agile:hover {
     font-size: 1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #3f51b5;
+    background: #2E64FE /* #3f51b5; */ 
     border: solid 1px #3f51b5;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -1477,7 +1477,7 @@ a.blog-more-agile:hover {
     -ms-transition: 0.5s all; 
 }
 .contact input[type="submit"]:hover {
-    background: #fe4630;
+    background: #0431B4 /* #fe4630; */
     color: #fff;
 	border-color:#fe4630;
 	
@@ -1540,7 +1540,7 @@ select.form-control {
     letter-spacing: 1px;
 }
 .form-agileits input[type="submit"]:hover {
-    background: #fe4630;
+    background: #0431B4; /* #fe4630; */
 	transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -2644,7 +2644,7 @@ h2.typoh2{
 		padding-right: 0;
 	}
 	.timings-w3ls {
-		background: #fe4630;
+		background: ##5289D5; /* #01A9DB; */
 		margin-left: 20px;
 		padding: 36px 34px;
 	}
