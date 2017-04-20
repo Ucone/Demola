@@ -2003,7 +2003,7 @@ ul.pagination {
 	display:block;
 }
 .agileinfo_footer_bottom {
-    background: #131315;
+    background: #131315; /*#131315; #337ab7*/
     font-style: normal;
 }
 .agileinfo_footer_bottom_grid h2,.agileinfo_footer_bottom_grid h3 {
